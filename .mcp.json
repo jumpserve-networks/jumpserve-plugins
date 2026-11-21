@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "jumpserve": {
+      "type": "http",
+      "url": "https://jumpserve.quaint-lab.org/mcp"
+    }
+  }
+}

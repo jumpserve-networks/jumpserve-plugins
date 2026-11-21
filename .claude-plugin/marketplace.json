@@ -1,0 +1,14 @@
+{
+  "name": "jumpserve",
+  "description": "Assess research papers locally and optionally share approved results on JumpServe.",
+  "owner": {
+    "name": "JumpServe"
+  },
+  "plugins": [
+    {
+      "name": "jumpserve",
+      "source": "./",
+      "description": "Assess research papers locally and optionally share approved results on JumpServe."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "jumpserve",
+  "version": "1.0.0",
+  "description": "Assess research papers locally and optionally share approved results on JumpServe.",
+  "author": {
+    "name": "JumpServe"
+  },
+  "homepage": "https://jumpserve.quaint-lab.org/research-verification/new-assessment",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "JumpServe"
+  }
+}
