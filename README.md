@@ -33,8 +33,12 @@ Connect to JumpServe with Google using `/mcp` in Claude Code or
 `codex mcp login jumpserve` in Codex. Start a new client session and ask
 JumpServe to assess a local PDF.
 
+The skill composes local tests using Access, Experiment, Data, and optional
+Validate modules. It checks compatibility before running and records module
+versions with the evidence.
+
 When the assessment finishes, the skill saves the bundle locally, sends a
-private preview through MCP, and returns a link to the results on JumpServe.
+private preview through MCP, and replies with the JumpServe URL alone.
 Open the link while signed in to see the assessment. Approve the exact copy
 if you want to share it publicly. Your original PDF and raw experiment files
 stay in your workspace. Ask for a local-only assessment to keep the bundle
