@@ -1,7 +1,7 @@
 {
   "name": "jumpserve",
-  "version": "1.0.0",
-  "description": "Assess research papers locally and optionally share approved results on JumpServe.",
+  "version": "1.1.0",
+  "description": "Assess research papers locally and view the results on JumpServe.",
   "author": {
     "name": "JumpServe"
   },
