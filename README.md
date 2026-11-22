@@ -39,11 +39,11 @@ versions with the evidence.
 
 When the assessment finishes, the skill saves the bundle locally, sends a
 private preview through MCP, and replies with a completion message and the
-JumpServe URL. Open the link while signed in to review the paper breakdown,
-experiment steps, setup commands and scripts, and experiment results in Steps
-2–5. Approve the exact copy if you want to share it publicly. Your original PDF
-and raw experiment files
-stay in your workspace. Ask for a local-only assessment to keep the bundle
-in your workspace.
+JumpServe URL. Open the link while signed in to review the numbered Paper
+Breakdown, Experiment Steps, Experiment Setup, and Experiment Results. The
+skill uploads a verified source PDF copy to the private preview. Approving
+public sharing makes that copy downloadable with the assessment. Your original
+PDF and raw evidence stay in your workspace. Ask for a local-only assessment
+to keep the bundle and PDF in your workspace.
 
 [View assessments on JumpServe](https://jumpserve.quaint-lab.org/research-verification/assessments)
