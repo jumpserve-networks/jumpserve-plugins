@@ -37,6 +37,11 @@ The skill composes local tests using Access, Experiment, Data, and optional
 Validate modules. It checks compatibility before running and records module
 versions with the evidence.
 
+The skill requests native approval when a required resource is blocked and
+continues after approval. If the current session cannot grant access, it saves
+a handoff for a session that can resume the assessment. See the
+[approval workflow](skills/jumpserve-paper-assessment/references/permissions.md).
+
 When the assessment finishes, the skill saves the bundle locally, sends a
 private preview through MCP, and replies with a completion message and the
 JumpServe URL. Open the link while signed in to review the numbered Paper
