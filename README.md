@@ -38,9 +38,10 @@ Validate modules. It checks compatibility before running and records module
 versions with the evidence.
 
 When the assessment finishes, the skill saves the bundle locally, sends a
-private preview through MCP, and replies with the JumpServe URL alone.
-Open the link while signed in to see the assessment. Approve the exact copy
-if you want to share it publicly. Your original PDF and raw experiment files
+private preview through MCP, and replies with a completion message and the
+JumpServe URL. Open the link while signed in to review the paper breakdown,
+experiment steps, and setup and run commands in Steps 2–4. Approve the exact
+copy if you want to share it publicly. Your original PDF and raw experiment files
 stay in your workspace. Ask for a local-only assessment to keep the bundle
 in your workspace.
 
