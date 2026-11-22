@@ -35,11 +35,16 @@ PDF in Step 1 on [Assess a Paper](https://jumpserve.quaint-lab.org/research-veri
 and paste the provided prompt. The skill uses the assessment ID to download
 and verify the PDF with the same Google account.
 
-The skill composes local tests using Access, Experiment, Data, and optional
-Validate modules. It checks compatibility before running and records module
-versions with the evidence. An assessment request authorizes the skill to run
-in-scope local experiments within the available permissions and any limits you
-specify.
+The skill recreates the paper's testbed and uses fresh measurements to test
+its claims. Published figures and tables supply reference values. Access,
+Experiment, Data, and optional Validate modules record the setup, run
+receipts and evidence.
+
+When the design needs AWS, the
+[temporary AWS testbed workflow](skills/jumpserve-paper-assessment/references/aws-testbeds.md)
+uses account `395567831870` and the dedicated experiment role. It collects
+evidence and verifies teardown before completing the assessment. The account
+operator configures AWS access once.
 
 Permission decisions belong to the user. If automatic review blocks an
 attempt, the skill keeps the request pending for human review where policy
