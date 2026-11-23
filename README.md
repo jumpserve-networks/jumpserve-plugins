@@ -56,8 +56,9 @@ If the PDF download is blocked, download the private PDF from Step 1 and
 When the assessment finishes, the skill saves the bundle locally and sends the
 results to JumpServe as a private assessment. JumpServe attaches the verified
 Step 1 PDF and returns a link. Open it while signed in to review the Paper
-Breakdown, Experiment Steps, Experiment Setup, and Experiment Results. The
-assessment stays private until you share it publicly. Public sharing makes the
+Breakdown, Experiment Steps, Experiment Setup, and Experiment Results. Each
+experiment keeps its number as its steps, commands, and measurements are added.
+Public sharing requires owner approval of the saved assessment and makes the
 attached PDF downloadable with the results. Raw evidence stays in your workspace.
 Ask for a local-only assessment to keep your results in the workspace.
 
