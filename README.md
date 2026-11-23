@@ -1,8 +1,8 @@
 # JumpServe plugin
 
 Assess research papers and run verification experiments in your local Claude
-Code or Codex workspace. The plugin includes the JumpServe paper assessment
-skill and the hosted MCP connector for viewing results on JumpServe.
+Code or Codex workspace. The plugin includes the Generator and Verifier skills
+and the hosted MCP connector for saving results on JumpServe.
 
 ## Install
 
@@ -35,7 +35,7 @@ PDF in Step 1 on [Assess a Paper](https://jumpserve.quaint-lab.org/research-veri
 and paste the provided prompt. The skill uses the assessment ID to download
 and verify the PDF with the same Google account.
 
-The skill recreates the paper's testbed and uses fresh measurements to test
+The Generator recreates the paper's testbed and uses fresh measurements to test
 its claims. Published figures and tables supply reference values. Access,
 Experiment, Data, and optional Validate modules record the setup, run
 receipts and evidence.
@@ -63,3 +63,11 @@ attached PDF downloadable with the results. Raw evidence stays in your workspace
 Ask for a local-only assessment to keep your results in the workspace.
 
 [View assessments on JumpServe](https://jumpserve.quaint-lab.org/research-verification/assessments)
+
+## Verify a saved assessment
+
+Use the [Verifier skill](skills/jumpserve-assessment-verifier/SKILL.md) in a separate
+session with the saved assessment JSON, supporting evidence, and matching private
+answer key. It checks the evidence and writes a claim-by-claim scorecard. With the
+owner's authorization, save the scorecard privately against the exact Generator
+result in JumpServe. Keep answer keys and raw logs in your local workspace.
