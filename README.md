@@ -76,6 +76,7 @@ result in JumpServe. Keep answer keys and raw logs in your local workspace.
 
 Use the [Coach skill](skills/jumpserve-assessment-coach/SKILL.md) in a separate
 session. Give it the local development scorecards and the verification IDs
-from their private JumpServe saves. The Coach proposes Generator changes and
-regression checks, then saves its completed report privately in JumpServe.
+from their private JumpServe saves. The Coach drafts one focused change in a
+separate local Generator candidate for your review and saves the recommendation
+report privately in JumpServe.
 Ask for a local-only review to keep the report in the workspace.
