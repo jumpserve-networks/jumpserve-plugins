@@ -1,7 +1,7 @@
 # JumpServe plugin
 
 Assess research papers and run verification experiments in your local Claude
-Code or Codex workspace. The plugin includes the Generator and Verifier skills
+Code or Codex workspace. The plugin includes the Generator, Verifier, and Coach skills
 and the hosted MCP connector for saving results on JumpServe.
 
 ## Install
@@ -71,3 +71,11 @@ session with the saved assessment JSON, supporting evidence, and matching privat
 answer key. It checks the evidence and writes a claim-by-claim scorecard. With the
 owner's authorization, save the scorecard privately against the exact Generator
 result in JumpServe. Keep answer keys and raw logs in your local workspace.
+
+## Review Generator improvements
+
+Use the [Coach skill](skills/jumpserve-assessment-coach/SKILL.md) in a separate
+session. Give it the local development scorecards and the verification IDs
+from their private JumpServe saves. The Coach proposes Generator changes and
+regression checks, then saves its completed report privately in JumpServe.
+Ask for a local-only review to keep the report in the workspace.
