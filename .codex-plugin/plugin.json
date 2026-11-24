@@ -1,6 +1,6 @@
 {
   "name": "jumpserve",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Recreate research testbeds, run experiments locally, and view the results on JumpServe.",
   "author": {
     "name": "JumpServe"
