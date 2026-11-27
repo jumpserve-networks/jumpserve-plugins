@@ -4,9 +4,9 @@ Assess research papers and run verification experiments in your local Claude
 Code or Codex workspace. The plugin includes the Generator, Verifier, and Coach skills
 and the hosted MCP connector for saving results on JumpServe.
 
-Connected sessions load the published workflow guidance for each skill from
-JumpServe and record the version used in the result. Local-only sessions can
-use the workflow guidance bundled with the plugin.
+Every run loads published workflow guidance from JumpServe and records the
+revision it used. Local-only reviews fetch guidance and keep their inputs and
+results on the machine.
 
 ## Install
 
